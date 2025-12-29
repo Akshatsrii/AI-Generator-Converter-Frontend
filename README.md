@@ -1,16 +1,60 @@
-# React + Vite
+✨ AI Generator & Converter – Frontend
+A modern React-based frontend application designed for beautiful AI generation and conversion experiences, featuring secure authentication using Clerk and a clean, responsive user interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🎨 Beautiful AI Generation UI
+Clean layouts with smooth user experience
+Modern design focused on simplicity and usability
+Optimized for both desktop and mobile screens
 
-Currently, two official plugins are available:
+🔐 Authentication with Clerk
+Secure Sign In / Sign Up
+User session handling
+Protected routes for authenticated users
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚡ Fast & Responsive React App
+Built using modern React practices
+Reusable components
+Optimized rendering and state handling
 
-## React Compiler
+🔄 AI Generation & Conversion Flow
+User-friendly input forms
+Clear output presentation
+Smooth interaction between UI states
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
+React.js
+Clerk Authentication
+JavaScript (ES6+)
+CSS / Tailwind CSS (if applicable)
+Vite / CRA (based on your setup)
 
-## Expanding the ESLint configuration
+🔑 Authentication (Clerk)
+This project uses Clerk for authentication:
+Sign In
+Sign Up
+Session Management
+Secure access to AI generation features
+Clerk ensures a seamless and secure login experience without manually handling auth logic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📁 Project Structure (Frontend)
+src/
+├── components/
+├── pages/
+├── assets/
+├── context/
+├── App.jsx
+└── main.jsx
+
+3️⃣ Add Environment Variables
+Create a .env file and add your Clerk keys:
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
+
+4️⃣ Run the App
+npm run dev
+
+🌟 UI Highlights
+Minimal and elegant design
+Smooth transitions and interactions
+Focused on AI creativity and clarity
+Designed to enhance the AI generation experience
